@@ -11,13 +11,12 @@ int main() {
     if (num1 < num2) {
         for (i = num1 + 1; i < num2; i++) {
             printf("%d ", i);
-            soma += i; // Acumula a soma
+            soma += i;
         }
     } else if (num1 > num2) {
         for (i = num2 + 1; i < num1; i++) {
             printf("%d ", i);
-            soma += i; // Acumula a soma
-        }
+            soma += i;
     } else {
         printf("nao há numeros entre %d e %d, pois sao iguais.\n", num1, num2);
     }
