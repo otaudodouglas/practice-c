@@ -1,0 +1,26 @@
+VARIAVEIS tipo inteiro
+CHAR:letra
+exemplo:casa
+INT:numero inteiro
+exemplo: 10
+VARIAVEIS tipo real
+FLOAT:numero real
+exemplo:5.25
+DOUBLE:numero real
+exemplo:5.2244
+     +
+todoas as % que podemos usar no printf
+(%c) para CHAR
+(%d) para DOUBLE
+(%f) para FLOAT
+
+como funciona o if e if else
+if:o if cria uma condisao para codigo como verdadeiro ou falso
+else: ele pode aumentar quantas condisao voce tera pro seu if 
+
+como  while funciona
+Avaliação da condição: Antes verificar se o while true
+Execução do bloco:executar o while
+Reavaliação:encerrar o while
+
+terminei 19:48

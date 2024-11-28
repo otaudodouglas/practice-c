@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, fatorial;
+    int n, fatorial = 1;
     char continuar = 's';
 
     while (continuar == 's' || continuar == 'S') {
@@ -10,7 +10,6 @@ int main() {
     if (n < 0 || n >= 16) {
         printf("insira um numero entre 0 e 16.\n");
     } else {
-        fatorial = 1;
         for (int i = 1; i <= n; i++) {
         fatorial *= i;
     }
