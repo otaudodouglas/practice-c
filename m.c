@@ -34,7 +34,7 @@ int main() {
         printf("ssexo invalido. digite novamente 'f' ou 'm': ");
         scanf(" %c", &sexo);
     }
-    printf("digite o estdo civil 's' para solteiro, 'c' para casado, 'v' para viúv, 'd' para divorciado): ");
+    printf("digite o estdo  civil 's' para solteiro, 'c' para casado, 'v' para viúv, 'd' para divorciado): ");
     scanf(" %c", &estado_civil);;
     while (estado_civil != 's' && estado_civil != 'c' && estado_civil != 'v' && estado_civil != 'd') {
         printf("estado civil invalido: digite novamente 's', 'c', 'v', 'd': ");

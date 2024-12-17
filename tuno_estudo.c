@@ -5,7 +5,8 @@ int main() {
     printf("em que turno voce estuda? (M - matutino, V - vespertino, N - noturno): ");
     scanf(" %c", &turno);
 
-    if (turno == 'M' || turno == 'm') {
+    if (turno == 'M' x/* 
+     */ turno == 'm') {
         printf("bom dia!\n");
     } else if (turno == 'V' || turno == 'v') {
         printf("boa tarde!\n");

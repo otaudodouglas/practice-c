@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main() 
     int num1, num2, i, soma = 0;
     printf("digite o primeiro numero inteiro: ");
     scanf("%d", &num1);

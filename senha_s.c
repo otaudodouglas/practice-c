@@ -5,7 +5,7 @@ int main() {
         printf("digite o nome de usuario: ");
         scanf("%s", nome);
         printf("digite a senha: ");
-        scanf("%s", senha);
+        scanf("%s", senha); 
         
         while (invalido == 0) {
         }  if (nome == '\0' && senha == '\0') {
